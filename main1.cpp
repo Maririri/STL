@@ -7,6 +7,7 @@
 #include <algorithm>
 
 #include <boost/container/vector.hpp>
+#include <vector>
 
 using namespace std;
 

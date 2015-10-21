@@ -22,8 +22,8 @@ using namespace std;
 
 typedef vector<char>::iterator CharVectorIter;
 
-template<typename T>
-ostream &operator<<(ostream &output, const vector<T> &v)
+template<typename U>
+ostream &operator<<(ostream &output, const vector<U> &v)
 {
 	output << "\n\nVector:\n\tsize: " << v.size() << "\n\tcap: " << v.capacity() << "\n\tmax size: " << v.max_size();
 

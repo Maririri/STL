@@ -65,11 +65,11 @@ public:
 };
 
 
+using namespace std;
 
 struct Rect
 {
 
-using namespace std;
 	int x;
 	uint32_t y;
     vector<uint32_t> m_v;

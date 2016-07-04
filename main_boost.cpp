@@ -7,6 +7,7 @@ FourBools const fourBools;
 #include <string>
 #include <ios>
 #include <iostream>
+#include <vector>
 #include "stdio.h"
 
 #include <boost/fusion/include/at_c.hpp>
@@ -42,6 +43,9 @@ int main()
 {
 	namespace phx = boost::phoenix;
 	namespace spirit = boost::spirit;
+
+	std::vector<int> vi(7, 7);
+	vi.push_back(8);
 
 	std::string const input("4bools:true,true,true,false;");
 	verify_same const vs(attr_t(true, true, true, false));
